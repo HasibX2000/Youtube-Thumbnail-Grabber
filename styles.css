@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+  overflow: hidden;
+  background: url(bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+  text-align: center;
+  width: 750px;
+}
+.container h1 {
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 0 15px deeppink;
+}
+.container .input-area {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .input-area input {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  padding: 10px 0;
+  padding-left: 10px;
+  outline: none;
+  border: 0;
+}
+.container .input-area input:focus {
+  outline: none;
+  border: 0;
+}
+.container .input-area input::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+.container .input-area input::placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+.container #getThumb {
+  background: deeppink;
+  padding: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 40px;
+  margin-top: 20px;
+  box-shadow: 0 0 25px deeppink;
+  border: 3px solid #fff;
+  cursor: pointer;
+}
+.container .thumbnail {
+  width: 80%;
+  max-width: 960px;
+  border: 5px solid white;
+  margin: 20px;
+  box-shadow: 0 0 10px deeppink;
+}/*# sourceMappingURL=styles.css.map */
